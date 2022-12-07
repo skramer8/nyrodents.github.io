@@ -3,8 +3,8 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html
+    - text: "Full Report"
+      href: report.html
     - icon: fa-github fa-lg
       href: http://github.com/skramer8/nyrodents.github.io
     - icon: fa-github fa-lg
