@@ -9,6 +9,8 @@ navbar:
       href: visualizations.html
     - text: "Full Report"
       href: report.html
+    - text: "Video Walk Through"
+      href: video.html
     - icon: fa-github fa-lg
       href: http://github.com/skramer8/nyrodents.github.io
     - icon: fa-thin fa-file-code
