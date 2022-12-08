@@ -13,7 +13,7 @@
 
 <title>Full Report</title>
 
-<script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
@@ -180,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -189,9 +189,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -285,7 +292,47 @@ $(document).ready(function () {
 </div>
 
 
-
+<div id="background" class="section level1">
+<h1>Background</h1>
+<p>New York City is infamous for the rodents that live among us. Our
+apartments, buildings, subway stations, trash cans, parks, and streets
+are home to millions of rats and other <a
+href="https://www.nytimes.com/2021/11/05/nyregion/nyc-rats-sightings.html">rodents</a>.
+For many New Yorkers, rodents are an inevitable part of everyday life,
+and one that has worsened in recent years. This year alone (2022), New
+York’s Sanitation Department has reported more than 21,600 rat
+complaints. This represents a 71% increase since <a
+href="https://www.npr.org/2022/10/20/1130150756/new-york-rats-trash-rule-mayor-eric-adams">October
+2020</a>. The issue has gotten so bad that Mayor Adams is now looking to
+hire a <a
+href="https://www.msn.com/en-ca/news/world/nyc-is-looking-for-bloodthirsty-rat-czar-and-the-job-pays-228-000/ar-AA14Qidf?li=AAggFp4">“bloodthirsty”
+director</a> of rodent mitigation, who is eligible to make up to
+$228,000. Given the prevalence of rodents in this city and the recent
+urgency of the issue, this project primarily seeks to explore trends in
+rodent infestation across New York City.</p>
+<p>Further, research shows that exposure to rodents is associated with a
+wide variety of diseases and poor health outcomes, including asthma
+symptoms. Asthma symptoms have been increasing in middle to high-income
+countries, making this issue ever more important. Understanding it can
+aid public health and health care combat diseases from these exposures.
+This is particularly an issue among communities that are historically
+and continually oppressed through racism and classism as they live in
+environments with higher levels of exposure due to air pollution, old
+buildings, cigarette smoke, and other factors. This project secondarily
+seeks to explore associations between rodent infestations and asthma
+prevalence in New York City.</p>
+</div>
+<div id="questions" class="section level1">
+<h1>Questions</h1>
+<p>This project is motivated by the following questions:</p>
+<ul>
+<li>What trends are there in rodent infestations throughout NYC?</li>
+<li>How does it vary by neighborhood? How are rodent trends associated
+with asthma trends?</li>
+<li>What are potential confounders of the relationship between rodent
+infestations and asthma?</li>
+</ul>
+</div>
 
 
 
