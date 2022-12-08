@@ -1,20 +1,20 @@
-name: "Rats! P8105 Project"
+name: "Rats! Rodent Exposure Impacts on asthma prevalence in NYC"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "P8105 Final"
   right:
-    - text: "Results"
-      href: results.html
-    - text: "Visualizations"
-      href: visualizations.html
-    - text: "Full Report"
-      href: report.html
-    - text: "Video Walk Through"
-      href: video.html
-    - icon: fa-github fa-lg
-      href: http://github.com/skramer8/nyrodents.github.io
-    - icon: fa-thin fa-file-code
-      href: http://github.com/hemangi94/p8105_final_project
+  - text: "Results"
+    href: results.html
+  - text: "Visualizations"
+    href: visualizations.html
+  - text: "Full Report"
+    href: report.html
+  - text: "Video Walk Through"
+    href: video.html
+  - icon: fa-github fa-lg
+    href: http://github.com/skramer8/nyrodents.github.io
+  - icon: fa-thin fa-file-code
+    href: http://github.com/hemangi94/p8105_final_project
 output:
   html_document:
     theme: readable
