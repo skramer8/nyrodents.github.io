@@ -1,12 +1,18 @@
 ---
 title: "Rats! Rodent Exposure Impacts on asthma prevalence in NYC"
+Subtitle: "By: Jenesis Merriman (jhm2176), Sara Kramer (sk4970), Hemangi Modi (hbm2126), Yongzheng Li (yl4924), and Vasuda Kapoor (vk2480)"
 output: 
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
-# 
+# Project Scope
+
+
+# The Data
+
+
+# Our Approach
 
 
