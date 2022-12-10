@@ -1,9 +1,9 @@
 name: "Rats! Rodent Exposure Impacts on asthma prevalence in NYC"
 output_dir: "."
 navbar:
-  title: "P8105 Final"
+  title: "Home"
   right:
-  - text: "Results"
+  - text: "Exploratory Analysis"
     href: results.html
   - text: "Visualizations"
     href: visualizations.html
